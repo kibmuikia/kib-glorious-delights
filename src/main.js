@@ -1,14 +1,18 @@
-import Vue from 'vue'
-import './plugins/vuetify'
-import App from './App.vue'
-import router from './router'
-import store from './store'
-import './registerServiceWorker'
+import Vue from "vue";
+import "./plugins/vuetify";
+import App from "./App.vue";
+import router from "./router/V1/";
+import store from "./store/V1/";
+import "./registerServiceWorker";
 
-Vue.config.productionTip = false
+import TitleMixin from "./mixins/TitleMixin/V1/";
+
+Vue.mixin(TitleMixin);
+
+Vue.config.productionTip = false;
 
 new Vue({
   router,
   store,
   render: h => h(App)
-}).$mount('#app')
+}).$mount("#app");

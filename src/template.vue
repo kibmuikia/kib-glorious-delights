@@ -1,22 +1,15 @@
 <template>
-  <v-container>
-    <v-layout row wrap align-center justify-space-around>
-      <v-flex xs12 md5>
-        <h4>
-          Summary of Glorious Delights
-        </h4>
-      </v-flex>
-    </v-layout>
-  </v-container>
+  <p>I am a template</p>
 </template>
 
 <script>
+/* eslint-disable no-console */
 /* eslint-disable no-unused-vars */
 
 let SELF;
 export default {
-  name: "about-view",
-  title: "About | Glorious Delights", // Home | Glorious Delights
+  name: "",
+  title: "", // Home | Glorious Delights
   components: {},
   props: {},
   data() {
