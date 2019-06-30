@@ -2,9 +2,9 @@
   <v-container>
     <v-layout row wrap align-center justify-space-around>
       <v-flex xs12 md5>
-        <h4>
+        <h2 class="text-xs-center">
           Summary of Glorious Delights
-        </h4>
+        </h2>
       </v-flex>
     </v-layout>
   </v-container>

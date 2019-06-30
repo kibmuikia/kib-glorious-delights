@@ -1,6 +1,7 @@
 <template>
   <v-app>
-    <Toolbar />
+    <!-- <Toolbar /> -->
+    <Header />
 
     <v-content>
       <router-view></router-view>
@@ -15,7 +16,8 @@ let SELF;
 export default {
   name: "App",
   components: {
-    Toolbar: () => import("@/components/Toolbar/V1/")
+    // Toolbar: () => import("@/components/Toolbar/V1/")
+    Header: () => import("@/components/Header/V1/")
   },
   props: {},
   data() {

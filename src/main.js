@@ -4,6 +4,7 @@ import App from "./App.vue";
 import router from "./router/V1/";
 import store from "./store/V1/";
 import "./registerServiceWorker";
+import "./stylus/main.styl";
 
 import TitleMixin from "./mixins/TitleMixin/V1/";
 

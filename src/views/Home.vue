@@ -2,7 +2,7 @@
   <v-container>
     <v-layout row wrap align-center justify-space-around>
       <v-flex xs12 md5>
-        <h2>
+        <h2 class="text-xs-center">
           Welcome To Glorious Delights
         </h2>
       </v-flex>
