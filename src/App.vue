@@ -6,6 +6,8 @@
     <v-content>
       <router-view></router-view>
     </v-content>
+
+    <Footer />
   </v-app>
 </template>
 
@@ -17,7 +19,8 @@ export default {
   name: "App",
   components: {
     // Toolbar: () => import("@/components/Toolbar/V1/")
-    Header: () => import("@/components/Header/V1/")
+    Header: () => import("@/components/Header/V1/"),
+    Footer: () => import("@/components/Footer/V1/")
   },
   props: {},
   data() {

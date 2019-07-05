@@ -14,7 +14,7 @@
           <v-flex xs6 md4>
             <p>
               <span class="right">
-                example@mail.com
+                glodelights@mail.com
               </span>
             </p>
           </v-flex>
